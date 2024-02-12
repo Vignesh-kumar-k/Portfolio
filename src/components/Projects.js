@@ -8,19 +8,19 @@ export default function Projects(){
                 <h1 className="text-4xl border-b-4 w-[128px] border-[#2b2d77] text-bold ">Projects</h1>
             </div>
         </div>
-        <div className=" py-5 w-1/2">
+        <div className="w-full">
             <div className="flex px-10 gap-5">
-            <div>
-                <img src={websiteimg1} />
+            <div className="relative"> 
+                <img className="h-[100px]" src={websiteimg1} />
+               <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary">
+                     <p className="text-center py-5">An E-commerce website built with MERN stack</p>
+               </div> 
+            </div>
+            <div> 
+                <img className="h-[200px]" src={websiteimg2} />
                 <div>
-                    <p>An E-commerce website built with MERN Stack</p>
-                </div>
-            </div>
-            <div>
-                <img src={websiteimg2} />
-            </div>
-            <div>
-                <img src={websiteimg3} />
+                     <p>NLP enabled AI voice assistant</p>
+               </div>
             </div>
             </div>
         </div>
